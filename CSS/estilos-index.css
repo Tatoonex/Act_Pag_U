@@ -1,5 +1,5 @@
-.body {
-    background-image: url("../Recursos/img/fondoPantalla.png"); /* ../Recursos/img/fondoPantalla.png */
+body {
+    background-image: url("../Recursos/img/fondoPantalla.png");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
