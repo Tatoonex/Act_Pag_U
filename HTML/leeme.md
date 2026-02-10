@@ -1,0 +1,1 @@
+en esta carpeta iran todas las paginas html (exepto el index) que necesitepos en todo el proyecto

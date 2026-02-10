@@ -1,0 +1,1 @@
+en esta carpeta iran todos los recuros que necesitemos emplear (imagenes, videos, audios, etc)
