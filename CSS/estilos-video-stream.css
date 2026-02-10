@@ -1,0 +1,48 @@
+body{
+    display: grid; /* usada para diseño de cuadricula */
+    grid-template-columns: auto; /* 1 columna */
+    grid-template-rows: auto auto auto auto auto; /* 5 filas */
+    gap: 10px /* Espacio entre filas y columnas */
+}
+
+.caja-color{
+    background-color: #00000075;
+    border-radius: 10%;
+    margin: 0.5% auto;
+    padding: 1%;
+    
+}
+
+.caja-gris{
+    background-color: #5a585875;
+    border-top-left-radius: 5% ;
+    border-top-right-radius: 5% ;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+.caja-color2{
+    background-color: #000000;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+ 
+    
+}
+
+.pata{
+    display: flex;
+    flex-direction: row; /*direccion horizntal */
+    justify-content: center; /* Centra Horizonal */
+    align-items: center;       /* Centra verticalmente */
+    gap: 5%; /* espaciado entre cada texto */
+    color:white;
+    text-align: center;
+
+}
