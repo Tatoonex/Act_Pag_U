@@ -46,3 +46,22 @@ body{
     text-align: center;
 
 }
+
+
+.pata li{
+    list-style-type: none; /* Elimina las viñetas */
+
+}
+
+
+a:link,
+a:visited,
+a:active {
+    color: inherit;           /* Hereda el color del texto del elemento padre */
+    text-decoration: none;    /* Quita el subrayado */
+}
+
+
+a:hover {
+    color: #ff6600; /* Cambia a naranja al pasar el cursor */
+}
