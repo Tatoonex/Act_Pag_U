@@ -204,40 +204,190 @@ ul li a:hover {
 
 .opciones {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
     margin-top: 20px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 100px;
+
 }
 
 .opciones img {
-    border-radius: 100px;
-    position: relative;
-    z-index: 1;
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
 }
 
 /* generar de plantilla menu*/
 .CajaMenu {
     background-image: url(/Recursos/img/LechugaCarta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 1%;
     border-radius: 100px;
     text-align: center;
-    margin: 1% 4% 0 4%;
     position: relative;
     z-index: 1;
+    width: 80%;
+    height: 40vh;
+}
+
+.CajaMenu img {
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.HamburguesaImagen {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70vh;
 }
 
 .TextoMenu {
     background-color: rgba(0, 0, 0, 0.747);
     font-family: 'Arial', sans-serif;
     color: white;
-    font-size: clamp(14px, 2vw, 24px);
-    padding: 1.5%;
+    font-size: clamp(10px, 2vw, 16px);
+    padding: 1%;
     border-radius: 80px;
     margin-bottom: 15px;
     width: fit-content;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Carta Tomate */
+
+.CajaMenuTomate {
+    background-image: url(/Recursos/img/TomateCarta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: 40vh;
+}
+
+.CajaMenuTomate img {
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.meserioImagen {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70vh;
+}
+
+/* Carta Carne */
+
+.CajaMenuCarne {
+    background-image: url(/Recursos/img/CarneCarta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: 40vh;
+}
+
+.CajaMenuCarne img {
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.MeseritoImagen {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70vh;
+}
+
+/* Carta Queso */
+
+.CajaMenuQueso {
+    background-image: url(/Recursos/img/QuesoCarta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1%;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: 40vh;
+}
+
+.CajaMenuQueso img {
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.TrabajaConNosotrosFondo {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
