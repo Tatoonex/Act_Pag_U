@@ -3,7 +3,16 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
 }
 
 .margen {
@@ -17,17 +26,15 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    flex-wrap: wrap;
+    padding: 10px 20px;
     width: 100%;
     z-index: 1000;
-    padding: 10px 20px;
-
 }
 
 .TituloHeader {
     color: white;
+    font-size: clamp(16px, 3vw, 20px);
     font-size: 20px;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
@@ -65,8 +72,8 @@ nav {
 }
 
 .logo {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     overflow: hidden;
     display: inline-block;
 }
@@ -84,12 +91,16 @@ ul {
     margin-left: 0;
     display: flex;
     margin-right: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul li {
+    font-size: clamp(12px, 2vw, 16px);
     font-family: 'Arial', sans-serif;
     color: white;
     font-size: 16px;
+    margin: 10px;
     margin-left: 20px;
 }
 
@@ -113,13 +124,14 @@ ul li a:hover {
     width: 100%;
     height: 90vh;
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 0;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 .bienvenida h1 {
@@ -205,7 +217,7 @@ ul li a:hover {
 .opciones {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1%;
+    gap: 2%;
     margin-top: 20px;
     text-align: center;
     justify-items: center;
@@ -224,6 +236,11 @@ ul li a:hover {
     display: block;
     margin: 0 auto;
 
+}
+
+.opciones :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 /* generar de plantilla menu*/
@@ -258,6 +275,8 @@ ul li a:hover {
 
 .TextoMenu {
     background-color: rgba(0, 0, 0, 0.747);
+    width: 30%;
+    height: auto;
     font-family: 'Arial', sans-serif;
     color: white;
     font-size: clamp(10px, 2vw, 16px);
@@ -328,8 +347,8 @@ ul li a:hover {
     height: auto;
     display: block;
     margin: 0 auto;
-    width: 70%;
-    height: 70vh;
+    width: 60%;
+    height: 80vh;
 }
 
 /* Carta Queso */
@@ -464,4 +483,31 @@ ul li a:hover {
     font-size: clamp(12px, 1.5vw, 16px);
     position: relative;
     z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .opciones {
+        grid-template-columns: 1fr;
+    }
+
+    .CajaMenu,
+    .CajaMenuTomate,
+    .CajaMenuCarne,
+    .CajaMenuQueso {
+        width: 95%;
+        height: auto;
+    }
+
+    .HamburguesaImagen,
+    .meserioImagen,
+    .MeseritoImagen,
+    .TrabajaConNosotrosFondo {
+        width: 90%;
+        height: auto;
+    }
 }
