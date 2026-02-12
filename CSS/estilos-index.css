@@ -117,7 +117,7 @@ ul li a:hover {
 /* Estilos para el header */
 
 .bienvenida {
-    background-image: url("/Recursos/img/fondoPantallaHeader.png");
+    background-image: url("../Recursos/img/fondoPantallaHeader.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ ul li a:hover {
 
 /* generar de plantilla menu*/
 .CajaMenu {
-    background-image: url(/Recursos/img/LechugaCarta.png);
+    background-image: url("../Recursos/img/LechugaCarta.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1%;
@@ -292,7 +292,7 @@ ul li a:hover {
 /* Carta Tomate */
 
 .CajaMenuTomate {
-    background-image: url(/Recursos/img/TomateCarta.png);
+    background-image: url("../Recursos/img/TomateCarta.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1%;
@@ -323,7 +323,7 @@ ul li a:hover {
 /* Carta Carne */
 
 .CajaMenuCarne {
-    background-image: url(/Recursos/img/CarneCarta.png);
+    background-image: url("../Recursos/img/CarneCarta.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1%;
@@ -354,7 +354,7 @@ ul li a:hover {
 /* Carta Queso */
 
 .CajaMenuQueso {
-    background-image: url(/Recursos/img/QuesoCarta.png);
+    background-image: url("../Recursos/img/QuesoCarta.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 1%;
@@ -483,6 +483,12 @@ ul li a:hover {
     font-size: clamp(12px, 1.5vw, 16px);
     position: relative;
     z-index: 1;
+}
+
+
+.img-a{
+    margin-left: 40%;
+    margin-right: 0%;
 }
 
 @media (max-width: 768px) {

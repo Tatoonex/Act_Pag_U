@@ -191,7 +191,8 @@ button:hover {
 }
 
 .VerOrdenBoton button {
-    background-image: url(/Recursos/img/ImagenCarrito.png);
+    background-image: url("../Recursos/img/ImagenCarrito.png");
+    background-size:450px 350px;
     background-color: #FFF;
     color: white;
     border: none;
@@ -200,6 +201,7 @@ button:hover {
     cursor: pointer;
     font-size: 18px;
     transition: all 0.3s ease;
+
 }
 
 .VerOrdenBoton button:hover {
@@ -249,4 +251,16 @@ button:hover {
     font-size: clamp(12px, 1.5vw, 16px);
     position: relative;
     z-index: 1;
+}
+
+.img-a{
+    margin-left: 40%;
+    margin-right: 0%;
+}
+
+.img-b{
+    
+    margin-left: 40%;
+    margin-right: 0%;
+    gap: 1%;
 }

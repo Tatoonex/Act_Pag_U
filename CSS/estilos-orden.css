@@ -221,6 +221,11 @@ section img {
     z-index: 1;
 }
 
+.img-a{
+    margin-left: 40%;
+    margin-right: 0%;
+}
+
 @media (max-width: 768px) {
     .formulario-pedido iframe {
         height: 1100px;
